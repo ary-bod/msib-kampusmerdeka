@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height,  shrink-to-fit=no">
+  <title>Check Mitra & Departemen - MSIB #4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel="stylesheet">
+
+  <meta name="twitter:title" content="Mitra & Departemen - MSIB #4">
+  <meta property="twitter:title" content="Mitra & Departemen - MSIB #4">
+  <meta property="og:title" content="Mitra & Departemen - MSIB #4">
+  <meta name="twitter:description"
+    content="Situs yang digunakan untuk mencari detail dari mitra dan departemen-nya yang terdaftar menjadi mitra pada program Magang Kampus Merdeka Batch #4">
+  <meta property="twitter:description"
+    content="Situs yang digunakan untuk mencari detail dari mitra dan departemen-nya yang terdaftar menjadi mitra pada program Magang Kampus Merdeka Batch #4">
+  <meta property="og:description"
+    content="Situs yang digunakan untuk mencari detail dari mitra dan departemen-nya yang terdaftar menjadi mitra pada program Magang Kampus Merdeka Batch #4">
+  <meta property="og:image" content="./heart.png">
+  <meta name="twitter:image" content="./heart.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="description"
+    content="Situs yang digunakan untuk mencari detail dari mitra dan departemen-nya yang terdaftar menjadi mitra pada program Magang Kampus Merdeka Batch #4">
+  <link rel="icon" type="image/x-icon" href="./heart.png">
+
+  <style>
+    * {
+      scroll-behavior: smooth;
+      font-family: 'Inter';
+    }
+
+    .dsb {
+      pointer-events: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .badge {
+      margin-bottom: 3px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 9px;
+      border-radius: 1rem;
+    }
+
+    .card {
+      transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+      border-radius: 1rem;
+    }
+
+    .card-img,
+    .card-img-top {
+      border-top-left-radius: calc(1rem - 1px);
+      border-top-right-radius: calc(1rem - 1px)
+    }
+
+    .card h5 {
+      overflow: hidden;
+      height: 56px;
+      font-weight: 900;
+      font-size: 1rem
+    }
+
+    .card-img-top {
+      width: 100%;
+      max-height: 180px;
+      object-fit: contain;
+      padding: 30px
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06)
+    }
+  </style>
+</head>
+
+<body class="bg-dark text-light">
+  <main class="container dsb">
+    <div class="px-4 py-5 mt-5 text-center">
+      <h1 class="display-4 fw-bold d-flex align-items-center justify-content-center">MSIB
+        <span class="badge bg-light text-dark rounded-pill ms-3">#4</span>
+      </h1>
+      <div class="col-lg-8 mx-auto mt-4">
+        <p class="h5 lh-lg">Berikut merupakan daftar mitra serta departemen-nya yang bergabung pada program Magang
+          Bersertifikat periode <mark>&nbsp;Februari s/d Juli 2023&nbsp;</mark></p>
+      </div>
+    </div>
+  </main>
+
+  <section class="container">
+    <div class="mx-auto col-lg-8">
+      <div class="p-4 border rounded-3 bg-dark">
+        <div class="input-group">
+          <input id="input-mitra" type="text" class="form-control" placeholder="Cari Mitra (Nama / Kata Kunci)">
+          <button id="btn-find-mitra" class="btn btn-dark border-white" type="button">
+            <i class="bi bi-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <h4 id="qty-mitra" class="text-center mb-4">Data ditemukan: 13 Data</h4>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id="mitraList">
+
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <h5 class="text-center mb-4" id="random-quote">
+      Quoteee apayaaa?
+    </h5>
+  </section>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top mt-5">
+    <div class="container col-md-4 d-flex align-items-center">
+      <a href="/" class="me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-md-0 text-light">© 2023 - Aryo B - Sukses MSIB #4 Kaliaannn.</span>
+    </div>
+
+    <ul class="container nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-light" target="_blank" href="https://www.linkedin.com/in/ary-bod/">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-light" href="https://www.instagram.com/ary_bod/">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-light" href="https://github.com/ary-bod">
+          <i class="bi bi-github"></i>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-light" href="https://telegram.me/ary_bod">
+          <i class="bi bi-telegram"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script>
+    const u = M; function M(L, U) { const W = D(); return M = function (m, c) { m = m - 0xd6; let g = W[m]; return g; }, M(L, U); } (function (W, m) { const B = M, c = W(); while (!![]) { try { const g = parseInt(B(0x114)) / 0x1 + -parseInt(B(0x107)) / 0x2 * (-parseInt(B(0x108)) / 0x3) + -parseInt(B(0x10e)) / 0x4 + -parseInt(B(0x103)) / 0x5 + parseInt(B(0xf0)) / 0x6 * (-parseInt(B(0x110)) / 0x7) + -parseInt(B(0xef)) / 0x8 + parseInt(B(0xf6)) / 0x9 * (parseInt(B(0xf7)) / 0xa); if (g === m) break; else c['push'](c['shift']()); } catch (n) { c['push'](c['shift']()); } } }(D, 0x83330)); const X = U; function U(m, c) { const g = L(); return U = function (n, p) { n = n - 0xfa; let r = g[n]; return r; }, U(m, c); } (function (g, p) { const O = M, r = U, S = g(); while (!![]) { try { const h = -parseInt(r(0x123)) / 0x1 + -parseInt(r(0x101)) / 0x2 + -parseInt(r(0x103)) / 0x3 * (parseInt(r(0x120)) / 0x4) + parseInt(r(0x12b)) / 0x5 + parseInt(r(0x106)) / 0x6 + parseInt(r(0x128)) / 0x7 * (parseInt(r(0x11b)) / 0x8) + -parseInt(r(0x12a)) / 0x9 * (-parseInt(r(0x114)) / 0xa); if (h === p) break; else S[O(0x104)](S[O(0x11b)]()); } catch (x) { S['push'](S[O(0x11b)]()); } } }(L, 0xa1069)); function D() { const j = ['&mitra_key=&keyword=&sector_id=', 'Mutualan\x20sama\x20Owner\x20boleh\x20kali\x20yaaa?', 'Setiap\x20detik-mu\x20berharga\x20bagi\x20orang\x20yang\x20peduli\x20sama\x20kamuuu.', 'join', '\x22\x20style=\x22max-height:\x20140px;\x20object-fit:\x20contain;\x22\x20loading=\x22lazy\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22card-text\x20mb-0\x22><strong>', '&location_key=&mitra_key=', '</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-danger\x20text-light\x22>', '879600TqMsBE', 'push', '</span>\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-light\x20text-dark\x22><i\x20class=\x22bi\x20bi-person-fill\x20me-1\x22></i>Quota\x20', '&location_key=&mitra_key=&keyword=', '274714fmTpYa', '18owMOtH', '</h6>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22mt-3\x22>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-danger\x20text-light\x22>', 'key', 'Jangan\x20lupa\x20kasih\x20rejeki\x20kamu\x20untuk\x20orang\x20yang\x20membutuhkannn.', '<div\x20class=\x22alert\x20alert-dark\x20text-center\x20w-100\x22>Mitra\x20Tidak\x20Ada\x20atau\x20Tidak\x20ditemukan.</div>', '1407UxsIxz', '3032904hRYgGE', 'click', '1661191RYUaNf', '\x20Mhs</span>\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22badge\x20bg-success\x20text-light\x22><i\x20class=\x22bi\x20bi-globe-asia-australia\x20me-1\x22></i>', 'slice', 'split', '899031QHhhtu', 'Kalo\x20mau\x20Quote\x20kamu\x20dimasukkin\x20di\x20web\x20ini.\x20PC\x20Ownernya\x20ajaa\x20di\x20Telegram!', '&sector_id=', 'name', '</strong></>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20p-0\x20m-0\x22>', '</span>\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div', 'Jangan\x20kecewain\x20orang\x20tua\x20kamu\x20:)', 'shift', '642960VilHBh', '\x20Data', '12616lLWHjR', '&location_key=', '\x0a\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22card\x20text-bg-dark\x20border-light\x20h-100\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22', 'length', 'qty-mitra', 'btn-find-mitra', 'Jadikan\x20setiap\x20hari-mu\x20menjadi\x20hari\x20yang\x20berwarna.', '</strong></>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20p-0\x20m-0\x22>', 'Jaga\x20kesehatan\x20buat\x20kamu\x20yang\x20nanti\x20merantau!', 'activity_type', 'Enter', 'total', 'getElementById', 'data', 'mitraList', 'Jangan\x20lupain\x20temen\x20magang\x20kamuuu\x20coook.', '\x22\x20class=\x22card-img-top\x20bg-light\x20mx-auto\x20d-block\x20py-3\x20dsb\x20h-100\x22\x20alt=\x22', 'random-quote', 'Jangan\x20PDKT\x20sama\x20temen\x20kantor\x20yaak.\x20Nanti\x20ngebatin\x20terus\x20selama\x20MSIB\x20loohhh\x20xD.', 'preventDefault', 'input-mitra', '&keyword=&sector_id=', 'Manfaatkan\x20setiap\x20detik-mu\x20dengan\x20berharga\x20yaaa!', '250ZqfLIY', '453455CPIXeR', 'location', 'mitra_name', '7131624DJZQzt', '6aeDeEW', 'get', '4FIrGBY', 'innerHTML', '&location_key=&mitra_key=&keyword=&sector_id=', 'https://api.kampusmerdeka.kemdikbud.go.id/magang/browse/position?offset=0&limit=22&sort_by=published_time&order=desc', '9OPYSKj', '8771310UjnexD', 'Semangat\x20terus\x20buat\x20kamu\x20yang\x20jauh\x20di\x20sanaaa!', '2011755eVPrix', 'addEventListener', 'Jangan\x20lupa\x20berdoa\x20yaaa!\x20Jangan\x20lupa\x20ibadahnya\x20jugaa!']; D = function () { return j; }; return D(); } const API = X(0x105), quotes = [X(0x118), X(0xff), X(0xfa), X(0x116), X(0x133), X(0x100), X(0x10d), X(0x107), 'Jangan\x20lupa\x20sedekah\x20walaupun\x20Rp1.000.\x20Okkk?', X(0x122), X(0x13c), X(0x119), u(0x10b), X(0x11a), X(0x102), X(0xfb)], buttonFind = document[X(0x10f)](X(0x13e)), inputMitraField = document[u(0xe0)](X(0x10b)), qtyMitra = document[X(0x10f)](X(0x11e)), quoteDiv = document[X(0x10f)](X(0x109)), removeWords = W => W[X(0x13d)]('\x20')[X(0x139)](0x0, -0x4)[u(0xff)]('\x20'), getAllMitra = async () => { const W = X; try { const { data: m } = await axios[W(0xfc)](API + W(0x129)); return m; } catch (c) { console[W(0x10a)](c); } }, getMitraSearch = async () => { const Y = u, g = X, n = document[g(0x10f)](g(0x131)), p = document[g(0x10f)](g(0x10b))['value'], { data: S } = await axios['get'](API + g(0x125) + p + g(0x124)), { data: h } = await axios[g(0xfc)](API + Y(0x11f) + p + Y(0xfc)), { data: x } = await axios[g(0xfc)](API + g(0x127) + p + Y(0x116)); n[g(0xfd)] = '', x[g(0x12d)][g(0x137)](k => { const z = Y, C = g; console['log'](k[z(0xed)][z(0xd7)]), n[C(0xfd)] += C(0x12f) + k[C(0x108)] + C(0x11f) + k[C(0x138)] + C(0x11c) + k[C(0x134)] + C(0x11d) + k[z(0x117)] + z(0x109) + k[C(0x104)] + C(0x12e) + k[z(0xdf)] + z(0x111) + (k[C(0x13a)][C(0x12c)] > 0x20 ? removeWords(k[C(0x13a)]) : k[C(0x13a)] ? k[C(0x13a)] : '-') + C(0x112); }), S[Y(0xe1)][g(0x137)](k => { const i = Y, C = g; n[C(0xfd)] += i(0xd6) + k[C(0x108)] + C(0x11f) + k[C(0x138)] + i(0x100) + k['mitra_name'] + '</strong></>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h6\x20class=\x22card-title\x20p-0\x20m-0\x22>' + k[C(0x138)] + i(0x109) + k[i(0xdd)] + C(0x12e) + k[C(0x13b)] + C(0xfe) + (k[C(0x13a)][i(0xd7)] > 0x20 ? removeWords(k[C(0x13a)]) : k[C(0x13a)] ? k['location'] : '-') + C(0x112); }), h[g(0x12d)][g(0x137)](k => { const v = Y, C = g; n[C(0xfd)] += C(0x12f) + k[C(0x108)] + C(0x11f) + k[v(0x117)] + C(0x11c) + k[v(0xee)] + C(0x11d) + k[C(0x138)] + C(0x121) + k[C(0x104)] + C(0x12e) + k[C(0x13b)] + v(0x111) + (k[v(0xed)][C(0x12c)] > 0x20 ? removeWords(k[C(0x13a)]) : k[C(0x13a)] ? k[v(0xed)] : '-') + C(0x112); }), qtyMitra[g(0xfd)] = g(0x111) + (S[g(0x12d)][g(0x12c)] + h[g(0x12d)][g(0x12c)] + x[g(0x12d)][g(0x12c)]) + g(0x136); if (S[g(0x12d)][Y(0xd7)] === 0x0 && h[g(0x12d)][g(0x12c)] === 0x0 && x[g(0x12d)][g(0x12c)] === 0x0) n[g(0xfd)] = g(0x110); }, main = async () => { const o = u, m = X, c = document[m(0x10f)](m(0x131)), { data: g } = await getAllMitra(); qtyMitra[o(0xf3)] = m(0x111) + g[o(0xd7)] + o(0x11d), g[m(0x137)](p => { const w = o, r = m; c[r(0xfd)] += r(0x12f) + p[r(0x108)] + r(0x11f) + p[r(0x138)] + '\x22\x20style=\x22max-height:\x20120px;\x20object-fit:\x20contain;\x22\x20loading=\x22lazy\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22card-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22card-text\x20mb-0\x22><strong>' + p[r(0x134)] + r(0x115) + p[r(0x138)] + r(0x135) + p[r(0x104)] + w(0x105) + p[r(0x13b)] + r(0xfe) + (p[r(0x13a)][r(0x12c)] > 0x20 ? removeWords(p[r(0x13a)]) : p[r(0x13a)] ? p[r(0x13a)] : '-') + r(0x112); }); const n = Math[m(0x10c)](Math[m(0x10e)]() * quotes[m(0x12c)]); quoteDiv[m(0xfd)] = quotes[n]; }; main(), buttonFind['addEventListener'](X(0x13f), async W => { const m = X; W[m(0x130)](), await getMitraSearch(); }), inputMitraField[X(0x113)](X(0x126), async W => { const m = X; W[m(0x132)] === m(0x117) && await getMitraSearch(); }); function L() { const y = u, W = ['Sehat-sehat\x20terus\x20yaaa.\x20Kalo\x20sakit\x20jangan\x20males\x20berobat!', y(0xf9), 'activity_type', y(0xf5), '1025532zNLaqM', y(0xfb), 'logo', y(0xe5), 'error', y(0xe8), 'floor', y(0xdc), 'random', y(0xe0), y(0x10c), 'Data\x20ditemukan:\x20', y(0x119), y(0xfa), y(0xeb), y(0xdb), y(0xea), y(0xde), 'Jangan\x20bersedih\x20bila\x20gagal!\x20Orang\x20sukses\x20ga\x20dinilai\x20dari\x20dia\x20masuk\x20MSIB\x20atau\x20Enggak.', y(0x115), y(0xe3), y(0x11e), y(0x100), y(0x118), y(0xd8), y(0xe4), y(0xf2), y(0x109), y(0xfe), '833133RoqFyC', y(0xe9), y(0x101), 'keypress', y(0x106), y(0x10d), y(0xf4), y(0x11c), y(0xec), y(0xd7), y(0xe1), y(0x105), y(0xd6), y(0xe7), y(0xe2), y(0x10a), y(0x11a), y(0xee), y(0x102), y(0x11d), 'map', y(0x117), y(0x112), y(0xed), y(0xdf), y(0xe6), y(0x113), y(0xd9), y(0x10f), y(0xda), y(0xfd), y(0xf1), y(0xf3), y(0x111), 'Jangan\x20ngegantungin\x20mitra\x20yaa.\x20Emang\x20kamu\x20mau\x20digantungin\x20balik?', y(0xf8), '402622ZKJhZQ']; return L = function () { return W; }, L(); }
+  </script>
+</body>
+
+</html>
